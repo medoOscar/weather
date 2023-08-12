@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+nav{
+    
+    background-color: #1E202B;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    
+}
+
+ul li a.nav-link{
+    color: white;
+    margin-right: 20px;
+    padding: 5px 25px !important;
+
+}
+.navbar-nav .nav-link.active, .nav-link:hover{
+    color: #009ad8;
+    border: 1px solid #009ad8;
+    border-radius: 50px;
+    
+}
+
+button{
+background-color: #009ad8;
+
+}
+header{
+    background-image: url(images/banner.png);
+    font-family: pacifico;
+    font-size: x-large;
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+
+.form-control{
+background-color: #1E202B;
+}
+.form-control:focus{
+background-color: #1E202B;
+color: white;
+outline: 0;
+box-shadow: none;
+}
+#btn{
+    transition: .4s;
+}
+#btn:hover{
+background-color: #1E202B;
+color: white;
+
+
+}
+
+.form-control::placeholder{
+    color: gray;
+    font-size: 14px;
+}
+.search button{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+.card-group .card:nth-child(1),.card-group .card:nth-child(3),footer{
+    background-color: #323544;
+}
+.card-group .card:nth-child(2){
+    background-color: #262936;
+}
+.card-body>span{
+    color: #009ad8;
+}
+.social-links a{
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
+    display: grid;
+    background-color:#1E202B;
+    border-radius: 50%;
+    place-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+    transition: all .5s;
+}
+.social-links a:hover{
+    background-color: #009ad8;
+    color: white;
+}
